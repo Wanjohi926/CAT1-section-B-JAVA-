@@ -4,13 +4,13 @@ class Car extends Vehicle {
     private String fuelType;
     
     public Car(String brand, String model, int year, String fuelType) {
-        super(brand, model, year); // Calling the superclass constructor
+        super(brand, model, year); 
         this.fuelType = fuelType;
     }
   
     @Override
     public void displayDetails() {
-        super.displayDetails(); // Calls the display logic from Vehicle
+        super.displayDetails();
         System.out.println("Fuel Type: " + fuelType);
     }
 }
