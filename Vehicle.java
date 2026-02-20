@@ -1,11 +1,11 @@
 //CHRISFLAVIAN WANJOHI
 //CT100/G/23613/24
 
-
+//Class Vehicle
 class Vehicle {
-    String brand;
-    String model;
-    int year;
+    protected String brand;
+    protected String model;
+    protected int year;
 
     public Vehicle(String brand, String model, int year) {
         this.brand = brand;
