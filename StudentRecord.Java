@@ -1,0 +1,20 @@
+//Class Student Record
+
+class StudentRecord {
+    String studentID;
+    String name;
+    String course;
+
+    public StudentRecord(String studentID, String name, String course) {
+        this.studentID = studentID;
+        this.name = name;
+        this.course = course;
+    }
+
+    public void displayInfo() {
+        System.out.println("\n--- Student Information ---");
+        System.out.println("Student ID: " + studentID);
+        System.out.println("Name: " + name);
+        System.out.println("Course: " + course);
+    }
+}
